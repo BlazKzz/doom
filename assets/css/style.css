@@ -88,4 +88,10 @@ body {
     font-size: 1.25em;
     line-height: 1.5em;
 }
-
+.carousel-caption {
+    position: absolute;
+    top: 50%; /* Posición vertical del texto */
+    transform: translate(-35%, -50%);
+    width: auto;
+    font-family: "Agency FB"
+}
